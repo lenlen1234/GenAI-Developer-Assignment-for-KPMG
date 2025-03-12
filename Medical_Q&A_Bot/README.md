@@ -145,5 +145,3 @@ If more development time were available, these enhancements would be implemented
 4. **Advanced Prompt Engineering**
    - Further optimize prompt templates for both collection and Q&A phases
 
-## License
-This project was created by Lena, hope you like it!
