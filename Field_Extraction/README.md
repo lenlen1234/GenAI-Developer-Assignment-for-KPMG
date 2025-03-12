@@ -4,13 +4,11 @@ This project is designed to extract specific fields from text originated from ב
 
 ## Features
 
-- **Smart Form Recognition**: Automatically detects and processes both Hebrew and English forms
-- **Optical Character Recognition (OCR)**: Uses Azure Document Intelligence to extract text from PDF and image files
+- **OCR**: Uses Azure Document Intelligence to extract text from PDF and image files
 - **Field Extraction**: Leverages Azure OpenAI GPT-4o to intelligently extract structured data from form text
 - **Data Validation**: Validates extracted data against predefined schemas using Pydantic
 - **Right-to-Left (RTL) Support**: Properly handles Hebrew text with right-to-left display
 - **User-Friendly Interface**: Streamlit-based UI 
-- **Comprehensive Error Handling**: Error detection and user-friendly error messages
 
 ## Project Structure
 
@@ -118,10 +116,3 @@ AZURE_OPENAI_MODEL=azure-openai-model
 ## License
 
 This project was developed by Lena, hope you find it useful and informative :)
-
-## Acknowledgments
-
-- Azure Document Intelligence
-- Azure OpenAI
-- Streamlit
-- Pydantic
